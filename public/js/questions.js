@@ -1,11 +1,11 @@
 const questions = [
   /* Category 1 Questions */
   {
-    prompt: 'What is the expansion of HTML?',
+    prompt: 'What',
     options: ['Hyper Text Markup Language', 'Holding Text Marker Language', 'Hyperlink Text Management Language', 'Holding Text Modal Language'],
     correctAnswer: 'Hyper Text Markup Language',
     cashPrize: 10
-  },
+  },  
   {
     prompt: 'What is the current version of HTML?',
     options: ['HTMLv5000', 'HTML5', 'HTML2016', 'HTMLC'],
