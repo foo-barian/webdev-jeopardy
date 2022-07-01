@@ -1,46 +1,34 @@
 const questions = [
   /* Category 1 Questions */
   {
-    prompt: 'What',
-    options: ['Hyper Text Markup Language', 'Holding Text Marker Language', 'Hyperlink Text Management Language', 'Holding Text Modal Language'],
-    correctAnswer: 'Hyper Text Markup Language',
+    prompt: 'How much of Singapore\'s population are gamers?',
+    options: ['2 million', '3 million', '4 million', '5 million'],
+    correctAnswer: '3 million',
     cashPrize: 10
   },  
   {
-    prompt: 'What is the current version of HTML?',
-    options: ['HTMLv5000', 'HTML5', 'HTML2016', 'HTMLC'],
-    correctAnswer: 'HTML5',
+    prompt: 'What is the average age of gamers globally?',
+    options: ['19', '24', '29', '34'],
+    correctAnswer: '34',
     cashPrize: 50
   },
   {
-    prompt: 'What language placed in a seperate file has largely replaced use of <style></style> elements?',
-    options: ['HTMLS Code', 'Style Sheet Language', 'CSS or Central Style Sheet', 'CSS or Cascading Style Sheets'],
-    correctAnswer: 'CSS or Cascading Style Sheets',
+    prompt: 'Are more people addicted to video games or drugs?',
+    options: ['Video games', 'Drugs'],
+    correctAnswer: 'Video games',
     cashPrize: 100
   },
-  {
-    prompt: 'What new element type introduced in HTML5 is functionally the same as a Div?',
-    options: ['Semantic Tags', 'PseudoDivs', 'DivisionIDs', 'Division Notation'],
-    correctAnswer: 'Semantic Tags',
-    cashPrize: 500
-  },
-  {
-    prompt: 'Browsers do not usually allow cross-site actions but there is one major exception:',
-    options: ['Get Requests', 'Ping Commands', 'iFrames', 'Git'],
-    correctAnswer: 'iFrames',
-    cashPrize: 1000
-  },
   /* Category 2 Questions */
-  {
-    prompt: 'What is the expansion of CSS?',
-    options: ['Cascading Style Sheets', 'Central Style Server', 'Control Set Styles', 'C Safe Server'],
-    correctAnswer: 'Cascading Style Sheets',
-    cashPrize: 10
-  },
   {
     prompt: 'The "<Span> </Span>" has what as a default property?',
     options: ['set-length', 'block', 'timestamp', 'inline'],
     correctAnswer: 'inline',
+    cashPrize: 10
+  },
+  {
+    prompt: 'Name 3 signs to watch for that show you are addicted.',
+    options: ['Yes', 'No'],
+    correctAnswer: 'Yes',
     cashPrize: 50
   },
   {
@@ -48,18 +36,6 @@ const questions = [
     options: ['Everything', 'Wildcard elements', 'Multiplication Functions', 'Elements with the Id of *'],
     correctAnswer: 'Everything',
     cashPrize: 100
-  },
-  {
-    prompt: 'What feature recently introduced in CSS 3 addresses issues with "floats"?',
-    options: ['Center Flagpoints', 'Flexbox', 'Flexpoints', 'FloatV2.0'],
-    correctAnswer: 'Flexbox',
-    cashPrize: 500
-  },
-  {
-    prompt: 'CSS is hard. What is one feature that makes it hard compared to other languages? ',
-    options: ['Lack of Case Examples', 'No Error Output', 'Inclusion of complex variable functions', 'Lack of documentation'],
-    correctAnswer: 'No Error Output',
-    cashPrize: 1000
   },
   /* Category 3 Questions */
   {
@@ -80,18 +56,6 @@ const questions = [
     correctAnswer: 'A text format readable by Javascript',
     cashPrize: 100
   },
-  {
-    prompt: 'Angular JS is an example of:',
-    options: ['A JS Framework', 'an open-source, cross-platform runtime environment for developing server-side web applications', 'A JS library', 'An AJAX library'],
-    correctAnswer: 'A JS Framework',
-    cashPrize: 500
-  },
-  {
-    prompt: 'Can you change the properties on a const variable?',
-    options: ['Never', 'Yes, by default', 'Yes, only if $constprop is present', 'Yes, if in an IIFE'],
-    correctAnswer: 'Yes, by default',
-    cashPrize: 1000
-  },
   /* Category 4 Questions */
   {
     prompt: 'The Terminal or command line is an example of a?',
@@ -111,18 +75,6 @@ const questions = [
     correctAnswer: 'Attempt to bring up the manual page for x',
     cashPrize: 100
   },
-  {
-    prompt: 'Someone shady on the internet tells you to enter a "rm -rf" command into your terminal on your root directory. Doing this would:',
-    options: ['Remake your filedomains', 'Rename your file register', 'Recursively rename all your files with the tag rm', 'Irreparably damage your file system'],
-    correctAnswer: 'Irreparably damage your file system',
-    cashPrize: 500
-  },
-  {
-    prompt: 'The GREP command allows a user to:',
-    options: ['Quickly search files for specific items of text', 'Grab-Read-Evaluate-Loop', 'Gauge RAM event parameters', 'Group related events in the processor'],
-    correctAnswer: 'Quickly search files for specific items of text',
-    cashPrize: 1000
-  },
   /* Category 5 Questions */
   {
     prompt: 'Use of "Alert" popup windows is often considered bad practice as browsers and users are hostile to pop-ups. What are the other two native Javascript popup functions?',
@@ -141,18 +93,6 @@ const questions = [
     options: ['ECMAScript', 'MP3ML', 'HTML5', 'WavML'],
     correctAnswer: 'HTML5',
     cashPrize: 100
-  },
-  {
-    prompt: 'Which of these frameworks include support for TypeScript?',
-    options: ['AngularJS', 'Angular', 'JQuery', 'Whitespace'],
-    correctAnswer: 'Angular',
-    cashPrize: 500
-  },
-  {
-    prompt: 'What is an early computer language famous for being designed by Government and Business without much input from computer scientists?',
-    options: ['MS Office', 'Telnet', 'COBOL', 'C--'],
-    correctAnswer: 'COBOL',
-    cashPrize: 1000
   }
 ];
 
