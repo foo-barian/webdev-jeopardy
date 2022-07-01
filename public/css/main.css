@@ -28,13 +28,13 @@
 
 .gridbtn {
   width: 100%;
-  height: 54px;
+  height: 90px;
   background-color: darkblue;
 }
 
 .gridstyling {
   display: grid;
-  grid-template-rows: [ten] 1fr [fifty] 1fr [onehundred] 1fr [fivehundred] 1fr [onethousand] 1fr;
+  grid-template-rows: [ten] 1fr [fifty] 1fr [onehundred] 1fr;
   grid-auto-flow: column;
   grid-gap: 10px;
 }
