@@ -1,5 +1,5 @@
 const questions = [
-  /* Category 1 Questions */
+  /* Stats Questions */
   {
     prompt: 'How much of Singapore\'s population are gamers?',
     options: ['2 million', '3 million', '4 million', '5 million'],
@@ -18,7 +18,7 @@ const questions = [
     correctAnswer: 'Video games',
     cashPrize: 100
   },
-  /* Category 2 Questions */
+  /* Symptoms Questions */
   {
     prompt: 'The "<Span> </Span>" has what as a default property?',
     options: ['set-length', 'block', 'timestamp', 'inline'],
@@ -37,7 +37,7 @@ const questions = [
     correctAnswer: 'Everything',
     cashPrize: 100
   },
-  /* Category 3 Questions */
+  /* Consequences Questions */
   {
     prompt: 'Which is a coding language or library not actually relevant to modern Javascript?',
     options: ['Java', 'ECMAScript', 'Ajax', 'JQuery'],
@@ -56,7 +56,7 @@ const questions = [
     correctAnswer: 'A text format readable by Javascript',
     cashPrize: 100
   },
-  /* Category 4 Questions */
+  /* Stopping addiction Questions */
   {
     prompt: 'The Terminal or command line is an example of a?',
     options: ['Interconnected Network', 'Read-Eval-Print-Loop', 'C++ Library Object', 'Skynet'],
@@ -75,7 +75,7 @@ const questions = [
     correctAnswer: 'Attempt to bring up the manual page for x',
     cashPrize: 100
   },
-  /* Category 5 Questions */
+  /* Random stuff Questions */
   {
     prompt: 'Use of "Alert" popup windows is often considered bad practice as browsers and users are hostile to pop-ups. What are the other two native Javascript popup functions?',
     options: ['Warning, Confirm', 'Confirm, Refresh', 'Prompt, Confirm', 'Prompt, Notice'],
