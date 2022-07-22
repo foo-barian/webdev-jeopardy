@@ -1,13 +1,13 @@
 const questions = [
   /* Stats Questions */
   {
-    prompt: 'How much of Singapore\'s population are gamers?',
+    prompt: 'This is Singapore\'s gaming population.',
     options: ['2 million', '3 million', '4 million', '5 million'],
     correctAnswer: '3 million',
     cashPrize: 10
   },  
   {
-    prompt: 'What is the average age of gamers globally?',
+    prompt: 'This is the average age of gamers globally.',
     options: ['19', '24', '29', '34'],
     correctAnswer: '34',
     cashPrize: 50
@@ -26,15 +26,15 @@ const questions = [
     cashPrize: 10
   },
   {
-    prompt: 'Name 3 signs to watch for that show you are addicted.',
+    prompt: 'This is a sign of addiction.',
     options: ['Yes', 'No'],
     correctAnswer: 'Yes',
     cashPrize: 50
   },
   {
-    prompt: 'The * css selector applies to what?',
-    options: ['Everything', 'Wildcard elements', 'Multiplication Functions', 'Elements with the Id of *'],
-    correctAnswer: 'Everything',
+    prompt: 'This is my adventure rank in Genshin Impact.',
+    options: ['I don\'t play genshin what', '<10', '11-54', '55\+'],
+    correctAnswer: 'I don\'t play genshin what',
     cashPrize: 100
   },
   /* Consequences Questions */
@@ -77,7 +77,7 @@ const questions = [
   },
   /* Random stuff Questions */
   {
-    prompt: 'Use of "Alert" popup windows is often considered bad practice as browsers and users are hostile to pop-ups. What are the other two native Javascript popup functions?',
+    prompt: '',
     options: ['Warning, Confirm', 'Confirm, Refresh', 'Prompt, Confirm', 'Prompt, Notice'],
     correctAnswer: 'Prompt, Confirm',
     cashPrize: 10
