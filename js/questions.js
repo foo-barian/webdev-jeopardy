@@ -13,54 +13,54 @@ const questions = [
     cashPrize: 50
   },
   {
-    prompt: 'Are more people addicted to video games or drugs?',
+    prompt: 'More people are addicted to this than the other option.',
     options: ['Video games', 'Drugs'],
     correctAnswer: 'Video games',
     cashPrize: 100
   },
   /* Symptoms Questions */
   {
-    prompt: 'The "<Span> </Span>" has what as a default property?',
-    options: ['set-length', 'block', 'timestamp', 'inline'],
-    correctAnswer: 'inline',
+    prompt: 'This is not a sign of addiction.',
+    options: ['Gaming despite not starting a project due in 1 hour', 'Feeling bored or unhappy when not gaming', 'Thinking about gaming very often', 'Playing mobile games during recess'],
+    correctAnswer: 'Yes',
     cashPrize: 10
   },
   {
-    prompt: 'This is a sign of addiction.',
-    options: ['Yes', 'No'],
-    correctAnswer: 'Yes',
+    prompt: 'Name 3 signs of addiction. (open-ended)',
+    options: ['1', '2', '3', 'bruh'], 
+    correctAnswer: '3',
     cashPrize: 50
   },
   {
-    prompt: 'This is my adventure rank in Genshin Impact.',
-    options: ['I don\'t play genshin what', '<10', '11-54', '55\+'],
-    correctAnswer: 'I don\'t play genshin what',
+    prompt: 'This is your adventure rank in Genshin Impact.',
+    options: ['<10', '11-54', '55+', 'what i don\'t play genshin'],
+    correctAnswer: 'what i don\'t play genshin',
     cashPrize: 100
   },
   /* Consequences Questions */
   {
-    prompt: 'Which is a coding language or library not actually relevant to modern Javascript?',
-    options: ['Java', 'ECMAScript', 'Ajax', 'JQuery'],
-    correctAnswer: 'Java',
+    prompt: 'This is not a common negative consequence of excessive gaming.',
+    options: ['Social anxiety', 'Inattentive in class', 'Insomnia', '40 lines WR'],
+    correctAnswer: '40 lines WR',
     cashPrize: 10
   },
   {
-    prompt: 'Javascript is usually described as a " "-based language?',
-    options: ['Relational', 'COBOL', 'Object', 'Directional'],
-    correctAnswer: 'Object',
+    prompt: 'This will happen when you game too much.',
+    options: ['No friends', 'No mother', 'No grades', 'All of the above'],
+    correctAnswer: 'All of the above',
     cashPrize: 50
   },
   {
-    prompt: 'JSON is: ',
-    options: ['A Javascript engine', 'A text format readable by Javascript', 'A Javascript library', 'A Javascript function'],
-    correctAnswer: 'A text format readable by Javascript',
+    prompt: 'This is another possible consequence of gaming addiction (open-ended)',
+    options: ['gaming', 'too much gaming'],
+    correctAnswer: 'gaming',
     cashPrize: 100
   },
   /* Stopping addiction Questions */
   {
-    prompt: 'The Terminal or command line is an example of a?',
-    options: ['Interconnected Network', 'Read-Eval-Print-Loop', 'C++ Library Object', 'Skynet'],
-    correctAnswer: 'Read-Eval-Print-Loop',
+    prompt: 'This is the HPB recommended daily entertainment screen time (for youth aged 7-18).',
+    options: ['<2 hours', '<1 hour', '<30 mins', 'Half of the daily exercise time'],
+    correctAnswer: '<2 hours',
     cashPrize: 10
   },
   {
@@ -70,9 +70,9 @@ const questions = [
     cashPrize: 50
   },
   {
-    prompt: 'The command "man x" would?',
-    options: ['Bring up the task manager for x', 'Modularize x', 'Attempt to bring up the manual page for x', 'Make x mandatory on startup'],
-    correctAnswer: 'Attempt to bring up the manual page for x',
+    prompt: 'This is a possible self-control technique. (open-ended)',
+    options: ['Complete', 'Failure'],
+    correctAnswer: 'Complete',
     cashPrize: 100
   },
   /* Random stuff Questions */
@@ -89,9 +89,9 @@ const questions = [
     cashPrize: 50
   },
   {
-    prompt: 'What version of what coding language introduced the audio function contained in this page?',
-    options: ['ECMAScript', 'MP3ML', 'HTML5', 'WavML'],
-    correctAnswer: 'HTML5',
+    prompt: 'ஃ',
+    options: ['🝆', 'ஃ', '⛬', '∴'],
+    correctAnswer: 'ஃ',
     cashPrize: 100
   }
 ];
