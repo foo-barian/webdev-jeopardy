@@ -66,7 +66,7 @@ const questions = [
   {
     prompt: 'This is not a real support organization for gaming addicts.',
     options: ['Life\'s too short', 'DigitalMindset', 'On-Line Gamers Anonymous', 'Game Quitters'],
-    correctAnswer: 'Mac OS X',
+    correctAnswer: 'Life\'s too short',
     cashPrize: 50
   },
   {
