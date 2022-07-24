@@ -58,40 +58,40 @@ const questions = [
   },
   /* Stopping addiction Questions */
   {
-    prompt: 'This is the HPB recommended daily entertainment screen time (for youth aged 7-18).',
-    options: ['<2 hours', '<1 hour', '<30 mins', 'Half of the daily exercise time'],
-    correctAnswer: '<2 hours',
+    prompt: 'This is a possible self-control technique. (open-ended)',
+    options: ['Complete', 'Failure'],
+    correctAnswer: 'Complete',
     cashPrize: 10
   },
   {
-    prompt: 'UNIX was added relatively later into what popular propietary operating system?',
-    options: ['Windows 10', 'Linux Mint', 'Mac OS X', 'Ubuntu'],
+    prompt: 'This is not a real support organization for gaming addicts.',
+    options: ['Life\'s too short', 'DigitalMindset', 'On-Line Gamers Anonymous', 'Game Quitters'],
     correctAnswer: 'Mac OS X',
     cashPrize: 50
   },
   {
-    prompt: 'This is a possible self-control technique. (open-ended)',
-    options: ['Complete', 'Failure'],
-    correctAnswer: 'Complete',
+    prompt: 'This is the HPB recommended daily entertainment screen time (for youth aged 7-18).',
+    options: ['<2 hours', '<1 hour', '<30 mins', 'Half of the daily exercise time'],
+    correctAnswer: '<2 hours',
     cashPrize: 100
   },
   /* Random stuff Questions */
   {
-    prompt: '',
-    options: ['Warning, Confirm', 'Confirm, Refresh', 'Prompt, Confirm', 'Prompt, Notice'],
-    correctAnswer: 'Prompt, Confirm',
+    prompt: 'This % of the 4665 divorce petitions in UK cited gaming addiction as a reason (2018).',
+    options: ['0.05','0.5','5','50','500'],
+    correctAnswer: '5',
     cashPrize: 10
   },
   {
-    prompt: 'The man page for Git describes it as:',
-    options: ['That stupid content tracker', 'A Content Version Tracker', 'General-Index-Tracker', 'A Revision Editor'],
-    correctAnswer: 'That stupid content tracker',
+    prompt: 'This demographic makes up the majority of gaming addicts',
+    options: ['Asian', 'Hispanic', 'Caucasian', 'African American'],
+    correctAnswer: 'Caucasian',
     cashPrize: 50
   },
   {
-    prompt: 'ஃ',
-    options: ['🝆', 'ஃ', '⛬', '∴'],
-    correctAnswer: 'ஃ',
+    prompt: 'Solve today\'s wordle in 4 attempts or under, live, right now.',
+    options: ['Success','Failure'],
+    correctAnswer: 'Failure',
     cashPrize: 100
   }
 ];
