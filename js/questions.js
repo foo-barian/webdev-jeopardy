@@ -18,6 +18,12 @@ const questions = [
     correctAnswer: 'Video games',
     cashPrize: 100
   },
+  {
+    prompt: 'This is why games are addictive',
+    options: ['Yes', 'No'],
+    correctAnswer: 'Yes',
+    cashPrize: 150
+  },
   /* Symptoms Questions */
   {
     prompt: 'This is not a sign of addiction.',
@@ -37,6 +43,12 @@ const questions = [
     correctAnswer: 'what i don\'t play genshin',
     cashPrize: 100
   },
+  {
+    prompt: 'Which country has the most gamers',
+    options: ['United States', 'China', 'Iran', 'South Korea'],
+    correctAnswer: 'China',
+    cashPrize: 150
+  },
   /* Consequences Questions */
   {
     prompt: 'This is not a common negative consequence of excessive gaming.',
@@ -45,9 +57,9 @@ const questions = [
     cashPrize: 10
   },
   {
-    prompt: 'This will happen when you game too much.',
-    options: ['No friends', 'No mother', 'No grades', 'All of the above'],
-    correctAnswer: 'All of the above',
+    prompt: 'This will not happen when you game too much.',
+    options: ['Alienating others', 'Completing homework', 'Dipping grades', 'Getting 100% in games'],
+    correctAnswer: 'Getting 100% in games',
     cashPrize: 50
   },
   {
@@ -55,6 +67,12 @@ const questions = [
     options: ['gaming', 'too much gaming'],
     correctAnswer: 'gaming',
     cashPrize: 100
+  },
+  {
+    prompt: 'This is the average sleep of a gamer',
+    options: ['5 hours', '8 hours', '10 hours', '7 hours'],
+    correctAnswer: '5 hours',
+    cashPrize: 150
   },
   /* Stopping addiction Questions */
   {
@@ -64,9 +82,9 @@ const questions = [
     cashPrize: 10
   },
   {
-    prompt: 'This is not a real support organization for gaming addicts.',
-    options: ['Life\'s too short', 'DigitalMindset', 'On-Line Gamers Anonymous', 'Game Quitters'],
-    correctAnswer: 'Life\'s too short',
+    prompt: 'This is a reason why quitting is so difficult',
+    options: ['Success','Failure'],
+    correctAnswer: 'Success',
     cashPrize: 50
   },
   {
@@ -75,6 +93,13 @@ const questions = [
     correctAnswer: '<2 hours',
     cashPrize: 100
   },
+  {
+    prompt: 'This is the average BMI of a gamer',
+    options: ['28.05', '26.55', '30.42', '21.69'],
+    correctAnswer: '28.05',
+    cashPrize: 150
+  },
+  
   /* Random stuff Questions */
   {
     prompt: 'This % of the 4665 divorce petitions in UK cited gaming addiction as a reason (2018).',
@@ -83,9 +108,9 @@ const questions = [
     cashPrize: 10
   },
   {
-    prompt: 'This demographic makes up the majority of gaming addicts',
-    options: ['Asian', 'Hispanic', 'Caucasian', 'African American'],
-    correctAnswer: 'Caucasian',
+    prompt: 'This is the number of hours Chinese youths in China are allowed to play video games, per week.',
+    options: ['none','up to 3','up to 13.5','up to 15'],
+    correctAnswer: 'up to 3',
     cashPrize: 50
   },
   {
@@ -93,7 +118,14 @@ const questions = [
     options: ['Success','Failure'],
     correctAnswer: 'Failure',
     cashPrize: 100
+  },
+  {
+    prompt: 'This is the CyberBuddies President',
+    options: ['Yes', 'No'],
+    correctAnswer: 'Yes',
+    cashPrize: 150
   }
+  
 ];
 
 export default questions;
