@@ -45,9 +45,9 @@ const questions = [
     cashPrize: 10
   },
   {
-    prompt: 'This will happen when you game too much.',
-    options: ['No friends', 'No mother', 'No grades', 'All of the above'],
-    correctAnswer: 'All of the above',
+    prompt: 'This will not happen when you game too much.',
+    options: ['Alienating others', 'Completing homework', 'Dipping grades', 'Getting 100% in games'],
+    correctAnswer: 'Getting 100% in games',
     cashPrize: 50
   },
   {
@@ -64,9 +64,9 @@ const questions = [
     cashPrize: 10
   },
   {
-    prompt: 'This is not a real support organization for gaming addicts.',
-    options: ['Life\'s too short', 'DigitalMindset', 'On-Line Gamers Anonymous', 'Game Quitters'],
-    correctAnswer: 'Life\'s too short',
+    prompt: 'This is a reason why quitting is so difficult',
+    options: ['Success','Failure'],
+    correctAnswer: 'Success',
     cashPrize: 50
   },
   {
@@ -83,9 +83,9 @@ const questions = [
     cashPrize: 10
   },
   {
-    prompt: 'This demographic makes up the majority of gaming addicts',
-    options: ['Asian', 'Hispanic', 'Caucasian', 'African American'],
-    correctAnswer: 'Caucasian',
+    prompt: 'This is the number of hours Chinese youths in China are allowed to play video games, per week.',
+    options: ['none','up to 3','up to 13.5','up to 15'],
+    correctAnswer: 'up to 3',
     cashPrize: 50
   },
   {
