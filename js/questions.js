@@ -13,17 +13,18 @@ const questions = [
     cashPrize: 50
   },
   {
-    prompt: 'More people are addicted to this than the other option.',
-    options: ['Video games', 'Drugs'],
-    correctAnswer: 'Video games',
+    prompt: 'Which country has the most gamers',
+    options: ['United States', 'China', 'Iran', 'South Korea'],
+    correctAnswer: 'China',
     cashPrize: 100
   },
   {
-    prompt: 'This is why games are addictive',
-    options: ['Yes', 'No'],
-    correctAnswer: 'Yes',
+    prompt: 'More people are addicted to this than the other option.',
+    options: ['Video games', 'Drugs'],
+    correctAnswer: 'Video games',
     cashPrize: 150
   },
+  
   /* Symptoms Questions */
   {
     prompt: 'This is not a sign of addiction.',
@@ -38,15 +39,15 @@ const questions = [
     cashPrize: 50
   },
   {
-    prompt: 'This is your adventure rank in Genshin Impact.',
-    options: ['<10', '11-54', '55+', 'what i don\'t play genshin'],
-    correctAnswer: 'what i don\'t play genshin',
+    prompt: 'This is the average BMI of a gamer',
+    options: ['28.05', '26.55', '30.42', '21.69'],
+    correctAnswer: '28.05',
     cashPrize: 100
   },
   {
-    prompt: 'Which country has the most gamers',
-    options: ['United States', 'China', 'Iran', 'South Korea'],
-    correctAnswer: 'China',
+    prompt: 'This is your adventure rank in Genshin Impact.',
+    options: ['<10', '11-54', '55+', 'what i don\'t play genshin'],
+    correctAnswer: 'what i don\'t play genshin',
     cashPrize: 150
   },
   /* Consequences Questions */
@@ -94,9 +95,9 @@ const questions = [
     cashPrize: 100
   },
   {
-    prompt: 'This is the average BMI of a gamer',
-    options: ['28.05', '26.55', '30.42', '21.69'],
-    correctAnswer: '28.05',
+    prompt: 'This is not a real support organization for gaming addicts.',
+    options: ['Life\'s too short', 'DigitalMindset', 'On-Line Gamers Anonymous', 'Game Quitters'],
+    correctAnswer: 'Life\'s too short',
     cashPrize: 150
   },
   

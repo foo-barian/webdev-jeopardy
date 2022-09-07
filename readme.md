@@ -23,7 +23,7 @@ Using Docker via [Dockerhub](https://hub.docker.com/repository/docker/airbr/webd
 3. Visit at the ports assigned!
 
 --
-### Web Dev Jeopardy by Morgan Murrah - v3.0
+### Web Dev Jeopardy by Tyler foobarian - v3.0
 
 ### Current Game:
 
