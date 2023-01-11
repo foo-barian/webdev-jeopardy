@@ -1,2 +1,1 @@
-Cyberwellness Jeopardy using the template by Morgan Murrah.
-For a school project.
+Cyberwellness Jeopardy using the template by Morgan Murrah, for a school project.  
